@@ -42,6 +42,7 @@ Once build is complete, the runtime application is available in target directory
   - can be updated using post call 
   - can be updated in h2 console after running application and logging into h2-console and running h2-console
   
-
+## Tools / technologies Used:
+Jav8, Spring Boot, Spring JPA, H2 database, Junit5, Mockito, Lombak, Swagger UI.
  
  
