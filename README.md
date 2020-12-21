@@ -1,17 +1,17 @@
-Address Service
+# REST API (Address Service):
 
-This service provides endpoint for Address service to retrieve addresses of particular country eg: US, CA
+This service provides REST endpoint for Address service to retrieve addresses of particular country eg: US, CA
 
-## Prerequisites for Development
+## Prerequisites for Development:
 
-## Building
+### Building
 Use maven to build the service from command line by running the following command at the root of the directory
 of the project: 
 `mvn clean package`
 
 Once build is complete, the runtime application is available in target directory
  
- ## Running
+ ### Running
  ### As Spring boot jar
  If you want to run the service locally, simply run the following at the command line from root directory
  of the project
@@ -30,7 +30,8 @@ Once build is complete, the runtime application is available in target directory
  - [Health](http://localhost:8080/actuator/health)
  - [Info](http://localhost:8080/actuator/info)
  
- ## Testing
+ ## Testing Application:
+ 
  we have used JPARepository of Java persistence API to retrieve and update data into database
  Swagger UI can be used to get Address details from Database and also to update database.
  
